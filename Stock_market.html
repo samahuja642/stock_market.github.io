@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- <meta name="viewport" content ="width=device-width, intial-scale=1.0"> -->
+    <head>
+        <title>***** Intro to Stock Market *****</title>
+        <style>
+            @media(min-width:600px){
+                *{
+                    background-color: #D1D5DB;
+                }
+            }
+            @media(max-width:599px){
+                *{
+                    background-color: #FCA5A5;
+                }
+            }
+            *{
+                background-color: #D1D5DB;
+            }
+            h1{
+                text-align: center;
+            }
+            h4{
+                margin-left:10px;
+            }
+            table{
+                margin-top:25px;
+                margin-left:25px;
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 2px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            .heading{
+                width: 25%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .Topic-intro{
+                width: 200px;
+                margin-left:10px;
+            }
+            #reset:hover{
+                background-color: red;
+            }
+            #submit:hover{
+                background-color: green;
+            }
+            button{
+                width:150px;
+                height:50px;
+            }
+            .margin{
+                margin-left:10 px;
+                margin-top:20 px;
+            }
+            .updates{
+                background-color: #FCA5A5;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>***** Intro to Stock Market *****</h1>
+        <img class="heading" src="finance.svg" alt="main_photo">
+        <h4>Things You can explore yourself</h4>
+        <ul>
+            <li>ICICI</li>
+            <li>HDFC</li>
+            <li>Satyam fraud</li>
+            <li>Lemen Brothers case</li>
+        </ul>
+        <table>
+            <thead>
+                <th>Dividend</th>
+                <th>Interest</th>
+            </thead>
+            <tr>
+                <td>Shares</td>
+                <td>FD , Debentures </td>
+            </tr>
+            <tr>
+                <td>Not Mandatory</td>
+                <td>Mandatory</td>
+            </tr>
+            <tr>
+                <td>Tax Free</td>
+                <td>Taxable</td>
+            </tr>
+            <tr>
+                <td>Return on investment in shares when company gains a lot.</td>
+                <td>Fixed interest till FD get matured</td>
+            </tr>
+            <tr>
+                <td>Limit till it is TaxFree:</td>
+            </tr>
+        </table>
+        <h4>Cool Facts</h4>
+        <img class="Topic-intro"src="facts.svg" alt="facts">
+        <ul>
+            <li>Goverment impacts market a lot :- When one party is ruling with majority that means it is a stable goverment , so it improves decision making in result market booms.</li>
+        </ul>
+        <h4>More Information</h4>
+        <img class="Topic-intro"src="question.svg" alt="question mark">
+        <ol>
+            <li>
+                <ul>
+                    <li>What is Long Term Capital Gain (LTCG) ?</li>
+                    <li>When a person holds share for more than 1 year then it is known as LTCG . There is no TAX on it. What's its LIMIT , till what it is TAX free?</li>
+                </ul>
+            </li>
+        </ol>
+        <hr><hr>
+        <div class="updates">
+            <h4 class ="updates">For updates fill this form</h4>
+            <form class="updates">
+                <div class ="updates">Enter your Name:<input type="name" placeholder="Name"></div>
+                <div class ="updates">Enter your Mail Id:<input type="email" placeholder="E-mail"></div>
+                <div class ="updates">Enter your Phone number: <input type="tel" placeholder="Contact No"></div>
+                <div class ="updates">When do you want Updates?</div>
+                <div class ="updates"><input type="checkbox">Stock prices you invested in</div>
+                <div class ="updates"><input type="checkbox">For Knowledge</div>
+                <div class ="updates"><input type="checkbox">Updates by the company on prices</div>
+                <button type="submit" id="submit">Submit Now</button>
+                <button type="reset" id="reset">Reset the form</button>
+            </form>
+        </div>
+    </body>
+</html>
